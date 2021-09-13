@@ -25,13 +25,20 @@ body {
   border-radius: 25px;
   margin-left: 20px;
 } */
+#input{
+  width: 50%;
+}
+.px-5 {
+  padding-right: 0 !important;
+  padding-left:0 !important;
+}
 .btn{
   padding:10px 20px;
   font-size: 10px;
 }
 .form-control{
   border-radius: 30px;
-  padding: 30px;
+  /* padding: 30px; */
   box-shadow: 5px 10px 8px 0px #888888;
 }
 #button-addon2{
@@ -83,6 +90,9 @@ td{
   padding-right: 30px;
 }
 @media only screen and (max-width: 768px) {
+  #input{
+    width: 100%;
+  }
   #all-products {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -101,6 +111,12 @@ td{
   }
 }
 @media only screen and (max-width: 468px) {
+  #input{
+    width: 100%;
+  }
+  .cart{
+    position: absolute;
+  }
   #all-products {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
